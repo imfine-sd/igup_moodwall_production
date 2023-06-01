@@ -1,9 +1,7 @@
 {
   "name": "MoodWallController",
   "short_name": "MWC",
-  "orientation": "landscape",
-  "start_url": "https://imfine-sd.github.io/igup_moodwall_production/",
-  "scope": "https://imfine-sd.github.io/igup_moodwall_production/",
+  "start_url": "",
   "display": "standalone",
   "background_color": "#F8F7DA",
   "theme_color": "#8C383A",
@@ -11,13 +9,8 @@
   "icons": [
     {
       "type": "image/png",
-      "src": "icons/icon_32.png",
-      "sizes": "32x32 24x24 16x16"
-    },
-    {
-      "type": "image/png",
       "src": "icons/icon_64.png",
-      "sizes": "64x64"
+      "sizes": "64x64 32x32 24x24 16x16"
     },
     {
       "type": "image/png",
@@ -31,15 +24,9 @@
     },
     {
       "type": "image/png",
-      "src": "icons/icon_64.png",
-      "sizes": "64x64",
-      "purpose": "maskable"
-    },
-    {
-      "type": "image/png",
       "src": "icons/icon_1024.png",
       "sizes": "512x512",
-      "purpose": "any"
+      "purpose": "any maskable"
     }
   ]
 }
